@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 dotenv.config();
 
 const app = express();
+// portsetup
 const PORT = process.env.PORT || 5001;
 
 // Middleware

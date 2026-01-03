@@ -13,9 +13,7 @@ const PORT = process.env.PORT || 5001;
 const corsOptions = {
   origin: [
     'http://localhost:3003',
-    'http://localhost:3002',
-    'http://82.112.226.75:3003',
-    'http://82.112.226.75:3002'
+    'http://localhost:3002'
   ],
   credentials: true,
   optionsSuccessStatus: 200
